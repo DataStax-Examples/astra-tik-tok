@@ -1,0 +1,13 @@
+{
+  "name": "Astra Tik-Tok",
+  "description": "A Tik Tok clone running on Astra",
+  "duration": "50 minutes",
+  "skillLevel": "Advanced",
+  "githubUrl": "https://github.com/DataStax-Examples/astra-tik-tok",
+  "tags": [
+    { "name": "labs", "color": "warning" },
+    { "name": "javascript" }
+  ],
+  "category": "apps",
+  "priority": 2
+}
