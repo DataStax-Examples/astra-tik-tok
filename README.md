@@ -23,6 +23,7 @@ To build and play with this app, follow the build instructions that are located 
 Follow the instructions below to get started.
 
 ### Video Content:
+- [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A)
 - (00:00) Introduction
 - (03:05) Creating our Database on DataStax
 - (06:52) Setting up our App
