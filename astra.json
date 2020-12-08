@@ -1,12 +1,13 @@
 {
   "name": "Astra Tik-Tok",
-  "description": "A Tik Tok clone running on Astra",
+  "description": "A simple Tik-Tok clone running on AstraDB that leverages the Document API.",
   "duration": "50 minutes",
   "skillLevel": "Advanced",
   "githubUrl": "https://github.com/DataStax-Examples/astra-tik-tok",
   "tags": [
     { "name": "labs", "color": "warning" },
-    { "name": "javascript" }
+    { "name": "javascript" },
+    { "name": "document API" }
   ],
   "category": "apps",
   "priority": 2
