@@ -5,7 +5,7 @@
 A simple Tik-Tok clone running on AstraDB that leverages the Document API.
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/astra-tik-tok/master/screenshot.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-tik-tok/master/screenshot.jpg)
 
 
 ## Objectives
