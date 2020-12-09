@@ -50,16 +50,24 @@ Let's do some initial setup.
 ### DataStax Astra
 1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-tik-tok) if you don't 
 already have one:
-![image](https://astra-screenshots.s3.amazonaws.com/current/register-basic-auth.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
-2. Create an (always) free-tier Cassandra database (take note of your db password):
-![image](https://user-images.githubusercontent.com/69874632/101203026-ef801700-361e-11eb-8321-de2d65259763.png)
-![image](https://user-images.githubusercontent.com/69874632/101203076-0292e700-361f-11eb-88ee-1f6356f4d7dc.png)
-![image](https://user-images.githubusercontent.com/69874632/101203115-12aac680-361f-11eb-9087-8ff5cb9516d7.png)
+2. On the home page. Locate the button **`Add Database`**
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
 
-3. After your database is provisioned, head to the `Connect` screen and copy your connection 
+3. Pick **free plan** and a **region** close to you, click configure.
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-top.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-1-bottom.png)
+
+4. Define a **database name**, **keyspace name** and **credentials** (Take note of the DB Password)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db-2.png)
+
+5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
+
+6. After your database is provisioned, head to the `Connect` screen and copy your connection 
 information (we'll need this later!):
-![image](https://user-images.githubusercontent.com/69874632/101202697-797bb000-361e-11eb-8ded-6e9b1d94fcac.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-connect.png)
 
 ### Github
 1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-tik-tok):
