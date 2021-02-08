@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@astrajs/collections": "0.0.5",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "axios": "^0.21.0",
-    "faker": "^5.1.0",
+    "@astrajs/collections": "0.0.10",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "faker": "^5.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0"
+    "react-scripts": "4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "netlify-cli": "^2.68.7"
+    "netlify-cli": "^3.5.0"
   }
 }
