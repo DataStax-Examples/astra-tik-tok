@@ -72,7 +72,7 @@ exports.handler = async function () {
 
   try {
     for (let i = 0; i < data.length; i++) {
-      await posts.create(data[i].id.toString(), data[i])
+      await posts.create(data[i].id.toString(), data[i]);
     }
 
     return {
