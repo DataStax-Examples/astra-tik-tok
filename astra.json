@@ -1,6 +1,6 @@
 {
-  "name": "TikTok clone using React, JAMStack and AstraDB",
-  "description": "A simple Tik-Tok clone running on AstraDB that leverages the Document API.",
+  "name": "TikTok clone using React, JAMStack and Astra DB",
+  "description": "A simple Tik-Tok clone running on Astra DB that leverages the Document API.",
   "duration": "50 minutes",
   "skillLevel": "Advanced",
   "githubUrl": "https://github.com/DataStax-Examples/astra-tik-tok",
