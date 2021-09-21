@@ -4,6 +4,7 @@
   "duration": "50 minutes",
   "skillLevel": "Advanced",
   "githubUrl": "https://github.com/DataStax-Examples/astra-tik-tok",
+  "demoUrl": "https://www.tiktok.com/",
   "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-tik-tok/master/hero.png",
   "tags": [
     { "name": "javascript" },
