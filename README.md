@@ -13,7 +13,7 @@ A simple Tik-Tok clone running on Astra DB that leverages the Document API.
 * Leverage Netlify and DataStax Astra DB
   
 ## How this works
-We're using Create-React-App and the Astra DB Document API to create a simple Tik-Tok clone.  Follow along in this video tutorial: [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A).
+We're using Create-React-App and the Astra DB Document API to create a simple Tik-Tok clone.  Follow along in this video tutorial: [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A). 
 
 ## Get Started
 To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok).
