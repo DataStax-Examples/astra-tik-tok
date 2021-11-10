@@ -1,5 +1,5 @@
 <!--- STARTEXCLUDE --->
-# Astra DB Tik-Tok
+# Social Media App using React, JAMStack and Astra DB
 *50 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok)*
 
 A simple Tik-Tok clone running on Astra DB that leverages the Document API.
