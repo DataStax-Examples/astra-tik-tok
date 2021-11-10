@@ -1,5 +1,5 @@
 {
-  "name": "TikTok clone using React, JAMStack and Astra DB",
+  "name": "Social Media App using React, JAMStack and Astra DB",
   "description": "A simple Tik-Tok clone running on Astra DB that leverages the Document API.",
   "duration": "50 minutes",
   "skillLevel": "Advanced",
