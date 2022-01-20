@@ -1,28 +1,31 @@
 <!--- STARTEXCLUDE --->
+
 # Social Media App using React, JAMStack and Astra DB
-*50 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok)*
+
+_50 minutes, Advanced, [Start Building](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#quickstart)_
 
 A simple Tik-Tok clone running on Astra DB that leverages the Document API.
+
 <!--- ENDEXCLUDE --->
 
 ![image](https://raw.githubusercontent.com/DataStax-Examples/astra-tik-tok/master/hero.png)
 
-
-## Objectives
-* Work through a video tutorial to build a simple Tik-Tok clone
-* Leverage Netlify and DataStax Astra DB
-  
-## How this works
-We're using Create-React-App and the Astra DB Document API to create a simple Tik-Tok clone.  Follow along in this video tutorial: [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A). 
-
-## Get Started
-To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok](https://github.com/DataStax-Examples/astra-tik-tok/blob/master/README.md#running-astra-tik-tok).
+## Quick Start
 
 <!--- STARTEXCLUDE --->
-## Running Astra DB Tik-Tok
-Follow the instructions below to get started.
 
+- [Signup for DataStax Astra](https://dtsx.io/2WMxoBQ), or login to your already existing account.
+- [Create an Astra DB Database](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db) if you don't already have one.
+<!--- ENDEXCLUDE --->
+- [Create an Astra DB Keyspace](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-astra-db-keyspace) called `sag_tiktok` in your database.
+- [Generate an Application Token](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#create-an-application-token) with the role of `Database Administrator` for the Organization that your Astra DB is in.
+- Click the 'Open in Gitpod' link: [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-tik-tok)
+- Once the app is finished launching in the Gitpod IDE, copy the `env.example` file to a file named `.env` and fill the required values in from your Application Token and [Astra DB connection settings](https://github.com/DataStax-Examples/sample-app-template/blob/master/GETTING_STARTED.md#get-your-astra-db-connection-settings).
+- Start the example by running `npm run dev` in the Gitpod console.
+
+<!--- STARTEXCLUDE --->
 ### Video Content:
+
 - [https://youtu.be/IATOicvih5A](https://youtu.be/IATOicvih5A)
 - (00:00) Introduction
 - (03:05) Creating our Database on DataStax
@@ -40,65 +43,8 @@ Follow the instructions below to get started.
 - (01:32:57) Adding new Data to our Database (creating a Tik Tok post)
 
 ### If you did like this video, please hit the Like and Subscribe button so I know to make more!
+
 - Twitter: https://twitter.com/ania_kubow
 - YouTube: https://youtube.com/aniakubow
 - Instagram: https://instagram.com/aniakubow
-
-## Prerequisites
-Let's do some initial setup by creating a serverless(!) database.
-
-### DataStax Astra
-1. Create a [DataStax Astra account](https://dtsx.io/2WMxoBQ) if you don't already have one:
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
-
-2. On the home page. Locate the button **`Create Database`**
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-dashboard.png)
-
-3. Locate the **`Get Started`** button to continue
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-select-plan.png)
-
-4. Define a **database name**, **keyspace name** and select a database **region**, then click **create database**.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-create-db.png)
-
-5. Your Astra DB will be ready when the status will change from *`Pending`* to **`Active`** 💥💥💥 
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-active.png)
-
-6. After your database is provisioned, we need to generate an Application Token for our App. Go to the `Settings` tab in the database home screen.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings.png)
-
-1. Select `Admin User` for the role for this Sample App and then generate the token. Download the CSV so that we can use the credentials we need later.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings-token.png)
-
-1. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
-
-### Github
-1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-tik-tok):
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-use-template.png)
-
-2. Enter a repository name and click 'Create repository from template':
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-create-repository.png)
-
-3. Clone the repository:
-![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-clone.png)
-
-
-## 🚀 Getting Started Paths:
-*Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
-  - [Running on your local machine](#running-on-your-local-machine)
-
-### Running on your local machine
-1. Create a `.env` file and fill it with values from the `.env.sample` file.
-
-2. Make sure the package dependencies are installed
-```sh
-# install dependencies
-npm install
-```
-
-3. Then, start the app in dev mode. Changes in the `src` or `functions` directories will trigger reloads.
-```sh
-# start in dev mode
-npm run dev
-```
 <!--- ENDEXCLUDE --->

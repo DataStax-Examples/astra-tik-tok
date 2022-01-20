@@ -11,11 +11,6 @@ const Home = () => {
   let topFiveNotFollowing
   let topFiveFollowing
 
-  //auto populating with dummy data
-  const addData = async () => {
-    await axios.post('/.netlify/functions/addData')
-  }
-
   //fetch all the tik-tok posts to your feed
   const fetchData = async () => {
     const results = await axios.get('/.netlify/functions/posts')
@@ -37,7 +32,6 @@ const Home = () => {
   }
 
   useEffect(() => {
-    addData()
     fetchData()
   }, [])
 
